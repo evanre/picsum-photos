@@ -1,7 +1,10 @@
 module.exports = exports = function () {
-  var configFile = require('./config.json')
-  var node_env = process.env.NODE_ENV || 'production'
-  var config = configFile[node_env]
-  config.env = node_env
-  return config
+    return {
+        "folder_path": "./photos",
+        "image_store_path": "./images.json",
+        "metadata_path": "./metadata.json",
+        "max_height": 5000,
+        "max_width": 5000,
+        "port": 80
+    }
 }

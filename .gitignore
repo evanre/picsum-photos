@@ -1,4 +1,7 @@
 node_modules
+yarn.lock
+.idea
+photos/
 images.json
 ansible/files/unsplash.key
 ansible/files/unsplash.crt
