@@ -5,6 +5,6 @@ module.exports = exports = function () {
         "metadata_path": "./metadata.json",
         "max_height": 5000,
         "max_width": 5000,
-        "port": 80
+        "port": 3333
     }
 }
